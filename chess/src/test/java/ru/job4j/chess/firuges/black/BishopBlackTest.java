@@ -8,7 +8,6 @@ import static org.assertj.core.api.Assertions.*;
 import static org.junit.Assert.assertThrows;
 import static ru.job4j.chess.firuges.Cell.*;
 
-
 class BishopBlackTest {
     @Test
     void whenCheckPositionIsValid() {
