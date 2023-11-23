@@ -21,7 +21,6 @@ public final class Logic {
     }
 
     private boolean free(Cell[] steps) throws OccupiedCellException {
-        boolean rsl = true;
         for (var step : steps) {
             for (var figure : figures) {
                 if (figure != null && figure.position().equals(step)) {
@@ -29,7 +28,7 @@ public final class Logic {
                 }
             }
         }
-        return rsl;
+        return true;
     }
 
     public void clean() {
